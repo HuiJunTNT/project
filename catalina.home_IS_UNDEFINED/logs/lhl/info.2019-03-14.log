@@ -1,0 +1,184 @@
+16:46:37 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 14232 (F:\project\target\classes started by 曾惠君 in F:\project)
+16:46:37 INFO ip=[] - No active profile set, falling back to default profiles: default
+16:46:37 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fd19498: startup date [Thu Mar 14 16:46:37 CST 2019]; root of context hierarchy
+16:46:41 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:46:42 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0d423ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:46:43 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+16:46:43 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+16:46:43 INFO ip=[] - Starting service [Tomcat]
+16:46:43 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:46:43 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+16:46:43 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+16:46:43 INFO ip=[] - Root WebApplicationContext: initialization completed in 5768 ms
+16:46:43 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+16:46:43 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:46:43 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+16:46:43 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+16:46:44 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:46:44 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:46:44 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:46:44 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fd19498: startup date [Thu Mar 14 16:46:37 CST 2019]; root of context hierarchy
+16:46:44 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+16:46:44 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+16:46:45 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+16:46:45 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+16:46:45 INFO ip=[] - Stopping service [Tomcat]
+16:46:45 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+16:47:40 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 4816 (F:\project\target\classes started by 曾惠君 in F:\project)
+16:47:40 INFO ip=[] - No active profile set, falling back to default profiles: default
+16:47:40 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e3fd3b2: startup date [Thu Mar 14 16:47:40 CST 2019]; root of context hierarchy
+16:47:43 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:47:43 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8c3c12a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:47:44 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+16:47:44 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+16:47:44 INFO ip=[] - Starting service [Tomcat]
+16:47:44 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:47:44 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+16:47:44 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+16:47:44 INFO ip=[] - Root WebApplicationContext: initialization completed in 3606 ms
+16:47:44 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+16:47:44 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:47:44 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+16:47:44 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+16:47:44 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:47:44 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:47:44 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:47:45 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e3fd3b2: startup date [Thu Mar 14 16:47:40 CST 2019]; root of context hierarchy
+16:47:45 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+16:47:45 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+16:47:45 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+16:47:45 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+16:47:45 INFO ip=[] - Stopping service [Tomcat]
+16:47:45 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+16:51:25 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 8480 (F:\project\target\classes started by 曾惠君 in F:\project)
+16:51:25 INFO ip=[] - No active profile set, falling back to default profiles: default
+16:51:25 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3beb6e75: startup date [Thu Mar 14 16:51:25 CST 2019]; root of context hierarchy
+16:51:28 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:51:29 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e715327] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:51:29 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+16:51:29 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+16:51:29 INFO ip=[] - Starting service [Tomcat]
+16:51:29 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:51:29 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+16:51:29 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+16:51:29 INFO ip=[] - Root WebApplicationContext: initialization completed in 4015 ms
+16:51:29 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+16:51:29 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:51:30 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+16:51:30 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+16:51:30 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:51:30 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:51:30 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:51:30 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3beb6e75: startup date [Thu Mar 14 16:51:25 CST 2019]; root of context hierarchy
+16:51:30 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+16:51:30 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+16:51:31 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+16:51:31 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+16:51:31 INFO ip=[] - Stopping service [Tomcat]
+16:51:31 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+17:00:03 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 8468 (F:\project\target\classes started by 曾惠君 in F:\project)
+17:00:03 INFO ip=[] - No active profile set, falling back to default profiles: default
+17:00:03 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@563398f7: startup date [Thu Mar 14 17:00:03 CST 2019]; root of context hierarchy
+17:00:07 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:00:07 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$967e60f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:00:08 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+17:00:08 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+17:00:08 INFO ip=[] - Starting service [Tomcat]
+17:00:08 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+17:00:08 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+17:00:08 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+17:00:08 INFO ip=[] - Root WebApplicationContext: initialization completed in 4512 ms
+17:00:08 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+17:00:08 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:00:08 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+17:00:08 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+17:00:08 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:00:08 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:00:08 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:00:08 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@563398f7: startup date [Thu Mar 14 17:00:03 CST 2019]; root of context hierarchy
+17:00:08 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+17:00:09 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+17:00:09 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+17:00:09 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+17:00:09 INFO ip=[] - Stopping service [Tomcat]
+17:00:09 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+

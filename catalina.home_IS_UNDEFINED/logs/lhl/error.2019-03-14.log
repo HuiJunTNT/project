@@ -1,0 +1,84 @@
+03-14 16:46:45 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+03-14 16:47:45 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+03-14 16:51:31 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+03-14 17:00:09 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+

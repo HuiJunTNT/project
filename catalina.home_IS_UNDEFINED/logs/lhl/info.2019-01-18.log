@@ -1,0 +1,207 @@
+15:00:47 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 11444 (F:\ecSpace\project\target\classes started by 曾惠君 in F:\ecSpace\project)
+15:00:47 INFO ip=[] - No active profile set, falling back to default profiles: default
+15:00:47 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41fc2d07: startup date [Thu Jan 17 15:00:47 CST 2019]; root of context hierarchy
+15:00:49 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3e11a14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:49 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+15:00:49 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+15:00:49 INFO ip=[] - Starting service [Tomcat]
+15:00:49 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+15:00:49 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+15:00:50 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+15:00:50 INFO ip=[] - Root WebApplicationContext: initialization completed in 2836 ms
+15:00:50 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+15:00:50 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:00:50 INFO ip=[] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:00:50 INFO ip=[] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:00:50 INFO ip=[] - Mapping filter: 'requestContextFilter' to: [/*]
+15:00:50 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+15:00:50 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+15:00:50 INFO ip=[] - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+15:00:50 INFO ip=[] - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+15:00:50 INFO ip=[] - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+15:00:50 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:00:50 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:00:50 INFO ip=[] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+15:00:50 INFO ip=[] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:00:50 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41fc2d07: startup date [Thu Jan 17 15:00:47 CST 2019]; root of context hierarchy
+15:00:50 INFO ip=[] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:00:50 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:00:50 INFO ip=[] - Adding welcome page template: index
+15:00:51 INFO ip=[] - LiveReload server is running on port 35729
+15:00:51 INFO ip=[] - Registering beans for JMX exposure on startup
+15:00:51 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+15:00:51 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+15:00:51 INFO ip=[] - Starting beans in phase 2147483647
+15:00:51 INFO ip=[] - Context refreshed
+15:00:51 INFO ip=[] - Found 1 custom documentation plugin(s)
+15:00:51 INFO ip=[] - Scanning for api listing references
+15:00:51 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+15:00:51 INFO ip=[] - Using a shared selector for servlet write/read
+15:00:51 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+15:00:51 INFO ip=[] - Started ProjectApplication in 4.659 seconds (JVM running for 5.988)
+15:01:31 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:01:31 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+15:01:31 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+15:01:31 INFO ip=[] - HikariPool-1 - Starting...
+15:01:31 INFO ip=[] - HikariPool-1 - Start completed.
+15:03:50 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41fc2d07: startup date [Thu Jan 17 15:00:47 CST 2019]; root of context hierarchy
+15:03:50 INFO ip=[] - Stopping beans in phase 2147483647
+15:03:50 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+15:03:50 INFO ip=[] - Unregistering JMX-exposed beans
+15:03:50 INFO ip=[] - HikariPool-1 - Shutdown initiated...
+15:03:50 INFO ip=[] - HikariPool-1 - Shutdown completed.
+15:04:30 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 13576 (F:\ecSpace\project\target\classes started by 曾惠君 in F:\ecSpace\project)
+15:04:30 INFO ip=[] - No active profile set, falling back to default profiles: default
+15:04:30 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69648f83: startup date [Thu Jan 17 15:04:30 CST 2019]; root of context hierarchy
+15:04:32 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa422c55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:32 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+15:04:32 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+15:04:32 INFO ip=[] - Starting service [Tomcat]
+15:04:32 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+15:04:32 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+15:04:32 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+15:04:32 INFO ip=[] - Root WebApplicationContext: initialization completed in 2837 ms
+15:04:32 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+15:04:32 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:04:32 INFO ip=[] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:04:32 INFO ip=[] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:04:32 INFO ip=[] - Mapping filter: 'requestContextFilter' to: [/*]
+15:04:33 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+15:04:33 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+15:04:33 INFO ip=[] - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+15:04:33 INFO ip=[] - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+15:04:33 INFO ip=[] - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+15:04:33 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:04:33 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:04:33 INFO ip=[] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+15:04:33 INFO ip=[] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:04:33 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69648f83: startup date [Thu Jan 17 15:04:30 CST 2019]; root of context hierarchy
+15:04:33 INFO ip=[] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:04:33 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:04:33 INFO ip=[] - Adding welcome page template: index
+15:04:34 INFO ip=[] - LiveReload server is running on port 35729
+15:04:34 INFO ip=[] - Registering beans for JMX exposure on startup
+15:04:34 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+15:04:34 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+15:04:34 INFO ip=[] - Starting beans in phase 2147483647
+15:04:34 INFO ip=[] - Context refreshed
+15:04:34 INFO ip=[] - Found 1 custom documentation plugin(s)
+15:04:34 INFO ip=[] - Scanning for api listing references
+15:04:34 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+15:04:34 INFO ip=[] - Using a shared selector for servlet write/read
+15:04:34 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+15:04:34 INFO ip=[] - Started ProjectApplication in 4.642 seconds (JVM running for 5.927)
+15:04:51 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:04:51 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+15:04:51 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+15:04:51 INFO ip=[] - HikariPool-1 - Starting...
+15:04:51 INFO ip=[] - HikariPool-1 - Start completed.
+15:05:09 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69648f83: startup date [Thu Jan 17 15:04:30 CST 2019]; root of context hierarchy
+15:05:09 INFO ip=[] - Stopping beans in phase 2147483647
+15:05:09 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+15:05:09 INFO ip=[] - Unregistering JMX-exposed beans
+15:05:09 INFO ip=[] - HikariPool-1 - Shutdown initiated...
+15:05:09 INFO ip=[] - HikariPool-1 - Shutdown completed.
+16:50:27 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 14444 (F:\ecSpace\project\target\classes started by 曾惠君 in F:\ecSpace\project)
+16:50:27 INFO ip=[] - No active profile set, falling back to default profiles: default
+16:50:28 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32647d76: startup date [Thu Jan 17 16:50:28 CST 2019]; root of context hierarchy
+16:50:32 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f89500ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:50:33 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+16:50:33 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+16:50:33 INFO ip=[] - Starting service [Tomcat]
+16:50:33 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:50:33 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+16:50:33 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+16:50:33 INFO ip=[] - Root WebApplicationContext: initialization completed in 5429 ms
+16:50:33 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+16:50:33 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:50:33 INFO ip=[] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:50:33 INFO ip=[] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:50:33 INFO ip=[] - Mapping filter: 'requestContextFilter' to: [/*]
+16:50:34 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+16:50:34 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+16:50:34 INFO ip=[] - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+16:50:34 INFO ip=[] - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+16:50:34 INFO ip=[] - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+16:50:34 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:50:34 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:50:34 INFO ip=[] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:50:34 INFO ip=[] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:52:26 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 13668 (F:\ecSpace\project\target\classes started by 曾惠君 in F:\ecSpace\project)
+16:52:26 INFO ip=[] - No active profile set, falling back to default profiles: default
+16:52:26 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9b3ee53: startup date [Thu Jan 17 16:52:26 CST 2019]; root of context hierarchy
+16:52:29 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$55cb8764] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:52:30 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+16:52:30 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+16:52:30 INFO ip=[] - Starting service [Tomcat]
+16:52:30 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:52:30 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+16:52:30 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+16:52:30 INFO ip=[] - Root WebApplicationContext: initialization completed in 4021 ms
+16:52:30 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+16:52:30 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:52:30 INFO ip=[] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:52:30 INFO ip=[] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:52:30 INFO ip=[] - Mapping filter: 'requestContextFilter' to: [/*]
+16:52:31 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+16:52:31 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+16:52:31 INFO ip=[] - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+16:52:31 INFO ip=[] - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+16:52:31 INFO ip=[] - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+16:52:31 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:52:31 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:52:31 INFO ip=[] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:52:31 INFO ip=[] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:52:31 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9b3ee53: startup date [Thu Jan 17 16:52:26 CST 2019]; root of context hierarchy
+16:52:31 INFO ip=[] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:52:31 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:52:31 INFO ip=[] - Adding welcome page template: index
+16:52:32 INFO ip=[] - LiveReload server is running on port 35729
+16:52:32 INFO ip=[] - Registering beans for JMX exposure on startup
+16:52:32 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:52:32 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+16:52:32 INFO ip=[] - Starting beans in phase 2147483647
+16:52:32 INFO ip=[] - Context refreshed
+16:52:32 INFO ip=[] - Found 1 custom documentation plugin(s)
+16:52:32 INFO ip=[] - Scanning for api listing references
+16:52:32 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+16:52:32 INFO ip=[] - Using a shared selector for servlet write/read
+16:52:32 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+16:52:32 INFO ip=[] - Started ProjectApplication in 6.559 seconds (JVM running for 8.214)
+09:00:59 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 12432 (F:\project\target\classes started by 曾惠君 in F:\project)
+09:00:59 INFO ip=[] - No active profile set, falling back to default profiles: default
+09:00:59 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4495d77d: startup date [Fri Jan 18 09:00:59 CST 2019]; root of context hierarchy
+09:01:05 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81328ef4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:01:05 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+09:01:05 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+09:01:05 INFO ip=[] - Starting service [Tomcat]
+09:01:05 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+09:01:05 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+09:01:05 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+09:01:05 INFO ip=[] - Root WebApplicationContext: initialization completed in 5821 ms
+09:01:05 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+09:01:05 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:01:06 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+09:01:06 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+09:01:06 INFO ip=[] - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+09:01:06 INFO ip=[] - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+09:01:06 INFO ip=[] - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+09:01:06 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:01:06 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:01:06 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:01:06 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4495d77d: startup date [Fri Jan 18 09:00:59 CST 2019]; root of context hierarchy
+09:01:06 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+09:01:06 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+09:01:06 INFO ip=[] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+09:01:07 INFO ip=[] - LiveReload server is running on port 35729
+09:01:07 INFO ip=[] - Registering beans for JMX exposure on startup
+09:01:07 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+09:01:07 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+09:01:07 INFO ip=[] - Starting beans in phase 2147483647
+09:01:07 INFO ip=[] - Context refreshed
+09:01:07 INFO ip=[] - Found 1 custom documentation plugin(s)
+09:01:07 INFO ip=[] - Scanning for api listing references
+09:01:07 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+09:01:07 INFO ip=[] - Using a shared selector for servlet write/read
+09:01:07 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+09:01:07 INFO ip=[] - Started ProjectApplication in 8.443 seconds (JVM running for 10.909)

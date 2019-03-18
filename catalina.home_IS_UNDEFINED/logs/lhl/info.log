@@ -1,0 +1,1040 @@
+10:48:28 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 7060 (F:\project\target\classes started by 曾惠君 in F:\project)
+10:48:28 INFO ip=[] - No active profile set, falling back to default profiles: default
+10:48:28 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51096dea: startup date [Mon Mar 18 10:48:28 CST 2019]; root of context hierarchy
+10:48:32 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:48:33 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a396eef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:48:34 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+10:48:34 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+10:48:34 INFO ip=[] - Starting service [Tomcat]
+10:48:34 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+10:48:34 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+10:48:34 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+10:48:34 INFO ip=[] - Root WebApplicationContext: initialization completed in 5645 ms
+10:48:34 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+10:48:34 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:48:35 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+10:48:35 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+10:48:35 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:48:35 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:48:35 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:48:35 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51096dea: startup date [Mon Mar 18 10:48:28 CST 2019]; root of context hierarchy
+10:48:35 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+10:48:35 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+10:48:35 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+10:48:35 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+10:48:35 INFO ip=[] - Stopping service [Tomcat]
+10:48:35 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:15:21 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 6468 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:15:21 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:15:21 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@315c11a4: startup date [Mon Mar 18 11:15:21 CST 2019]; root of context hierarchy
+11:15:26 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:15:27 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93698218] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:15:28 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:15:28 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:15:28 INFO ip=[] - Starting service [Tomcat]
+11:15:28 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:15:28 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:15:28 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:15:28 INFO ip=[] - Root WebApplicationContext: initialization completed in 6874 ms
+11:15:28 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:15:28 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:15:28 INFO ip=[] - JedisPool注入成功！！
+11:15:28 INFO ip=[] - redis地址：localhost:6379
+11:15:28 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:15:28 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:15:28 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:15:28 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:15:28 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:15:28 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@315c11a4: startup date [Mon Mar 18 11:15:21 CST 2019]; root of context hierarchy
+11:15:29 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:15:29 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:15:30 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:15:30 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:15:30 INFO ip=[] - Stopping service [Tomcat]
+11:15:30 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:16:00 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 17976 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:16:00 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:16:01 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c264d40: startup date [Mon Mar 18 11:16:01 CST 2019]; root of context hierarchy
+11:16:03 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:16:04 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$113058c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:16:04 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:16:04 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:16:04 INFO ip=[] - Starting service [Tomcat]
+11:16:04 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:16:04 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:16:05 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:16:05 INFO ip=[] - Root WebApplicationContext: initialization completed in 3990 ms
+11:16:05 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:16:05 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:16:05 INFO ip=[] - JedisPool注入成功！！
+11:16:05 INFO ip=[] - redis地址：localhost:6379
+11:16:05 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:16:05 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:16:05 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:16:05 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:16:05 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:16:05 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c264d40: startup date [Mon Mar 18 11:16:01 CST 2019]; root of context hierarchy
+11:16:05 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:16:05 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:16:06 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:16:06 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:16:06 INFO ip=[] - Stopping service [Tomcat]
+11:16:06 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:18:03 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 14688 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:18:03 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:18:03 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a7efdf5: startup date [Mon Mar 18 11:18:03 CST 2019]; root of context hierarchy
+11:18:05 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:18:06 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92609bd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:18:06 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:18:06 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:06 INFO ip=[] - Starting service [Tomcat]
+11:18:06 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:18:06 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:18:06 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:18:06 INFO ip=[] - Root WebApplicationContext: initialization completed in 3724 ms
+11:18:06 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:18:06 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:18:07 INFO ip=[] - JedisPool注入成功！！
+11:18:07 INFO ip=[] - redis地址：localhost:6379
+11:18:07 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:18:07 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:18:07 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:18:07 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:18:07 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:18:07 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a7efdf5: startup date [Mon Mar 18 11:18:03 CST 2019]; root of context hierarchy
+11:18:07 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:18:07 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:18:07 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:18:07 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:18:07 INFO ip=[] - Stopping service [Tomcat]
+11:18:07 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:19:20 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 15348 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:19:20 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:19:20 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4265f671: startup date [Mon Mar 18 11:19:20 CST 2019]; root of context hierarchy
+11:19:26 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:19:27 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e980ac54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:19:28 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:19:28 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:19:28 INFO ip=[] - Starting service [Tomcat]
+11:19:28 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:19:28 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:19:28 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:19:28 INFO ip=[] - Root WebApplicationContext: initialization completed in 7814 ms
+11:19:28 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:19:28 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:19:28 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginInterceptor': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.yuexunit.accountTemp.serviceImpl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7e6891aa]
+11:19:28 INFO ip=[] - Stopping service [Tomcat]
+11:19:28 ERROR ip=[] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginInterceptor': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.yuexunit.accountTemp.serviceImpl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7e6891aa]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.ProjectApplication.main(ProjectApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.yuexunit.accountTemp.serviceImpl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7e6891aa]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:261)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1120)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.yuexunit.accountTemp.serviceImpl.UserServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7e6891aa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:659)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:556)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:541)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:244)
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/yuexunit/accountTemp/db/User
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:641)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.yuexunit.accountTemp.db.User
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 common frames omitted
+11:21:22 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 5160 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:21:22 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:21:22 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@23391caa: startup date [Mon Mar 18 11:21:22 CST 2019]; root of context hierarchy
+11:21:25 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:21:25 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$173032ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:21:26 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:21:26 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:21:26 INFO ip=[] - Starting service [Tomcat]
+11:21:26 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:21:26 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:21:26 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:21:26 INFO ip=[] - Root WebApplicationContext: initialization completed in 4151 ms
+11:21:26 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:21:26 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:21:26 INFO ip=[] - JedisPool注入成功！！
+11:21:26 INFO ip=[] - redis地址：localhost:6379
+11:21:26 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:21:26 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:21:26 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:21:26 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:21:26 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:21:26 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@23391caa: startup date [Mon Mar 18 11:21:22 CST 2019]; root of context hierarchy
+11:21:26 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:21:27 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:21:27 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:21:27 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:21:27 INFO ip=[] - Stopping service [Tomcat]
+11:21:27 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:21:51 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 4876 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:21:51 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:21:51 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cc21cab: startup date [Mon Mar 18 11:21:51 CST 2019]; root of context hierarchy
+11:21:54 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:21:54 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e09de03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:21:55 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:21:55 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:21:55 INFO ip=[] - Starting service [Tomcat]
+11:21:55 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:21:55 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:21:55 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:21:55 INFO ip=[] - Root WebApplicationContext: initialization completed in 3486 ms
+11:21:55 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:21:55 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:21:55 INFO ip=[] - JedisPool注入成功！！
+11:21:55 INFO ip=[] - redis地址：localhost:6379
+11:21:55 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:21:55 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:21:55 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:21:55 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:21:55 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:21:55 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2cc21cab: startup date [Mon Mar 18 11:21:51 CST 2019]; root of context hierarchy
+11:21:55 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:21:55 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:21:56 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:21:56 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:21:56 INFO ip=[] - Stopping service [Tomcat]
+11:21:56 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:23:07 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 9624 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:23:07 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:23:07 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66b40979: startup date [Mon Mar 18 11:23:07 CST 2019]; root of context hierarchy
+11:23:10 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:23:10 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1ee619] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:23:11 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:23:11 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:23:11 INFO ip=[] - Starting service [Tomcat]
+11:23:11 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:23:11 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:23:11 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:23:11 INFO ip=[] - Root WebApplicationContext: initialization completed in 3987 ms
+11:23:11 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:23:11 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:23:11 INFO ip=[] - JedisPool注入成功！！
+11:23:11 INFO ip=[] - redis地址：localhost:6379
+11:23:11 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:23:11 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:23:11 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:23:11 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:23:11 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:23:11 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66b40979: startup date [Mon Mar 18 11:23:07 CST 2019]; root of context hierarchy
+11:23:11 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:23:11 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:23:12 WARN ip=[] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'freeMarkerConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/freemarker/FreeMarkerServletWebConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V
+11:23:12 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:23:12 INFO ip=[] - Stopping service [Tomcat]
+11:23:12 ERROR ip=[] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method freemarker.template.Configuration.<init>(Lfreemarker/template/Version;)V but it does not exist. Its class, freemarker.template.Configuration, is available from the following locations:
+
+    jar:file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class
+
+It was loaded from the following location:
+
+    file:/E:/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of freemarker.template.Configuration
+
+11:24:40 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 14068 (F:\project\target\classes started by 曾惠君 in F:\project)
+11:24:40 INFO ip=[] - No active profile set, falling back to default profiles: default
+11:24:40 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fc2c7bc: startup date [Mon Mar 18 11:24:40 CST 2019]; root of context hierarchy
+11:24:44 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:24:45 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4832fa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:24:45 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+11:24:45 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+11:24:45 INFO ip=[] - Starting service [Tomcat]
+11:24:45 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+11:24:45 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+11:24:45 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+11:24:45 INFO ip=[] - Root WebApplicationContext: initialization completed in 5573 ms
+11:24:46 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+11:24:46 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:24:46 INFO ip=[] - JedisPool注入成功！！
+11:24:46 INFO ip=[] - redis地址：localhost:6379
+11:24:46 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+11:24:46 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+11:24:46 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:24:46 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:24:46 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:24:46 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fc2c7bc: startup date [Mon Mar 18 11:24:40 CST 2019]; root of context hierarchy
+11:24:46 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+11:24:46 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+11:24:47 INFO ip=[] - LiveReload server is running on port 35729
+11:24:47 INFO ip=[] - Registering beans for JMX exposure on startup
+11:24:47 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+11:24:47 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+11:24:47 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+11:24:47 INFO ip=[] - Using a shared selector for servlet write/read
+11:24:48 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+11:24:48 INFO ip=[] - Started ProjectApplication in 8.191 seconds (JVM running for 10.912)
+11:25:46 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fc2c7bc: startup date [Mon Mar 18 11:24:40 CST 2019]; root of context hierarchy
+11:25:46 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+11:25:46 INFO ip=[] - Unregistering JMX-exposed beans
+13:27:15 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 2924 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:27:15 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:27:15 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56d3f123: startup date [Mon Mar 18 13:27:15 CST 2019]; root of context hierarchy
+13:27:18 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:27:19 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fdb3635] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:27:20 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:27:20 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:27:20 INFO ip=[] - Starting service [Tomcat]
+13:27:20 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:27:20 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:27:20 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:27:20 INFO ip=[] - Root WebApplicationContext: initialization completed in 4541 ms
+13:27:20 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:27:20 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:27:20 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:27:21 INFO ip=[] - JedisPool注入成功！！
+13:27:21 INFO ip=[] - redis地址：localhost:6379
+13:27:21 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String)
+13:27:21 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:27:21 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:27:21 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:27:21 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:27:21 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56d3f123: startup date [Mon Mar 18 13:27:15 CST 2019]; root of context hierarchy
+13:27:21 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:27:21 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:27:21 INFO ip=[] - Starting without optional epoll library
+13:27:21 INFO ip=[] - Starting without optional kqueue library
+13:27:23 INFO ip=[] - LiveReload server is running on port 35729
+13:27:23 INFO ip=[] - Registering beans for JMX exposure on startup
+13:27:23 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:27:23 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:27:23 INFO ip=[] - Starting beans in phase 2147483647
+13:27:23 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:27:23 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:27:23 INFO ip=[] - Using a shared selector for servlet write/read
+13:27:24 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:27:24 INFO ip=[] - Started ProjectApplication in 9.042 seconds (JVM running for 11.165)
+13:27:52 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56d3f123: startup date [Mon Mar 18 13:27:15 CST 2019]; root of context hierarchy
+13:27:52 INFO ip=[] - Stopping beans in phase 2147483647
+13:27:52 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+13:27:52 INFO ip=[] - Unregistering JMX-exposed beans
+13:32:03 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 8240 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:32:03 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:32:03 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50535c99: startup date [Mon Mar 18 13:32:03 CST 2019]; root of context hierarchy
+13:32:06 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:32:07 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8e1040fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:32:07 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:32:07 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:32:07 INFO ip=[] - Starting service [Tomcat]
+13:32:07 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:32:07 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:32:07 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:32:07 INFO ip=[] - Root WebApplicationContext: initialization completed in 3930 ms
+13:32:07 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:32:07 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:32:07 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:32:08 INFO ip=[] - JedisPool注入成功！！
+13:32:08 INFO ip=[] - redis地址：localhost:6379
+13:32:08 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.test(javax.servlet.http.HttpServletRequest)
+13:32:08 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+13:32:08 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:32:08 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:32:08 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:32:08 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:32:08 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50535c99: startup date [Mon Mar 18 13:32:03 CST 2019]; root of context hierarchy
+13:32:08 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:32:08 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:32:08 INFO ip=[] - Starting without optional epoll library
+13:32:08 INFO ip=[] - Starting without optional kqueue library
+13:32:10 INFO ip=[] - LiveReload server is running on port 35729
+13:32:10 INFO ip=[] - Registering beans for JMX exposure on startup
+13:32:10 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:32:10 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:32:10 INFO ip=[] - Starting beans in phase 2147483647
+13:32:10 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:32:10 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:32:10 INFO ip=[] - Using a shared selector for servlet write/read
+13:32:10 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:32:10 INFO ip=[] - Started ProjectApplication in 7.606 seconds (JVM running for 9.779)
+13:34:11 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:34:11 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+13:34:11 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 119 ms
+13:34:11 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:34:11]-->GET
+13:34:11 INFO ip=[] - HikariPool-1 - Starting...
+13:34:11 INFO ip=[] - HikariPool-1 - Start completed.
+13:34:11 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.data.redis.serializer.SerializationException: Cannot serialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:96)
+	at org.springframework.data.redis.core.AbstractOperations.rawHashValue(AbstractOperations.java:184)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:133)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.putAll(DefaultBoundHashOperations.java:136)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.saveDelta(RedisOperationsSessionRepository.java:778)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.access$000(RedisOperationsSessionRepository.java:651)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:386)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:234)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.access$100(SessionRepositoryFilter.java:197)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:150)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:68)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:35)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:94)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:63)
+	... 35 common frames omitted
+13:34:11 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:34:11]-->GET
+13:34:11 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.data.redis.serializer.SerializationException: Cannot serialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:96)
+	at org.springframework.data.redis.core.AbstractOperations.rawHashValue(AbstractOperations.java:184)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:133)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.putAll(DefaultBoundHashOperations.java:136)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.saveDelta(RedisOperationsSessionRepository.java:778)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.access$000(RedisOperationsSessionRepository.java:651)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:386)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:234)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.access$100(SessionRepositoryFilter.java:197)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:150)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:68)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:35)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:94)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:63)
+	... 35 common frames omitted
+13:34:11 ERROR ip=[] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.data.redis.serializer.SerializationException: Cannot serialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:96)
+	at org.springframework.data.redis.core.AbstractOperations.rawHashValue(AbstractOperations.java:184)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:133)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.putAll(DefaultBoundHashOperations.java:136)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.saveDelta(RedisOperationsSessionRepository.java:778)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository$RedisSession.access$000(RedisOperationsSessionRepository.java:651)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:386)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.save(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:234)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.access$100(SessionRepositoryFilter.java:197)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:150)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:68)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:35)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:94)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.yuexunit.accountTemp.db.User]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:63)
+	... 35 common frames omitted
+13:34:11 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:34:11]-->GET
+13:35:38 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 9824 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:35:38 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:35:38 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cf4920: startup date [Mon Mar 18 13:35:38 CST 2019]; root of context hierarchy
+13:35:42 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:35:43 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$880a48fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:35:44 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:35:44 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:35:44 INFO ip=[] - Starting service [Tomcat]
+13:35:44 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:35:44 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:35:44 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:35:44 INFO ip=[] - Root WebApplicationContext: initialization completed in 5430 ms
+13:35:44 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:35:44 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:35:44 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:35:44 INFO ip=[] - JedisPool注入成功！！
+13:35:44 INFO ip=[] - redis地址：localhost:6379
+13:35:44 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.test(javax.servlet.http.HttpServletRequest)
+13:35:44 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+13:35:44 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:35:44 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:35:44 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:35:44 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:35:44 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cf4920: startup date [Mon Mar 18 13:35:38 CST 2019]; root of context hierarchy
+13:35:44 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:35:45 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:35:45 INFO ip=[] - Starting without optional epoll library
+13:35:45 INFO ip=[] - Starting without optional kqueue library
+13:35:47 INFO ip=[] - LiveReload server is running on port 35729
+13:35:47 INFO ip=[] - Registering beans for JMX exposure on startup
+13:35:47 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:35:47 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:35:47 INFO ip=[] - Starting beans in phase 2147483647
+13:35:47 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:35:47 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:35:47 INFO ip=[] - Using a shared selector for servlet write/read
+13:35:47 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:35:47 INFO ip=[] - Started ProjectApplication in 9.116 seconds (JVM running for 11.242)
+13:46:18 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 14252 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:46:18 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:46:18 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12c9ec2d: startup date [Mon Mar 18 13:46:18 CST 2019]; root of context hierarchy
+13:46:20 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:46:21 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1add1bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:21 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:46:21 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:46:21 INFO ip=[] - Starting service [Tomcat]
+13:46:21 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:46:21 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:46:21 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:46:21 INFO ip=[] - Root WebApplicationContext: initialization completed in 3397 ms
+13:46:21 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:46:21 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:46:21 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:46:21 INFO ip=[] - JedisPool注入成功！！
+13:46:21 INFO ip=[] - redis地址：localhost:6379
+13:46:22 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.test(javax.servlet.http.HttpServletRequest)
+13:46:22 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+13:46:22 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:46:22 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:46:22 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:46:22 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:46:22 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12c9ec2d: startup date [Mon Mar 18 13:46:18 CST 2019]; root of context hierarchy
+13:46:22 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:46:22 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:46:22 INFO ip=[] - Starting without optional epoll library
+13:46:22 INFO ip=[] - Starting without optional kqueue library
+13:46:24 INFO ip=[] - LiveReload server is running on port 35729
+13:46:24 INFO ip=[] - Registering beans for JMX exposure on startup
+13:46:24 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:46:24 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:46:24 INFO ip=[] - Starting beans in phase 2147483647
+13:46:24 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:46:24 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:46:24 INFO ip=[] - Using a shared selector for servlet write/read
+13:46:24 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:46:24 INFO ip=[] - Started ProjectApplication in 6.696 seconds (JVM running for 8.405)
+13:46:44 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:46:44 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+13:46:44 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+13:46:44 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:46:44]-->GET
+13:46:44 INFO ip=[] - HikariPool-1 - Starting...
+13:46:44 INFO ip=[] - HikariPool-1 - Start completed.
+13:47:22 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:47:22]-->GET
+13:47:39 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12c9ec2d: startup date [Mon Mar 18 13:46:18 CST 2019]; root of context hierarchy
+13:47:39 INFO ip=[] - Stopping beans in phase 2147483647
+13:47:39 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+13:47:39 INFO ip=[] - Unregistering JMX-exposed beans
+13:47:39 INFO ip=[] - HikariPool-1 - Shutdown initiated...
+13:47:40 INFO ip=[] - HikariPool-1 - Shutdown completed.
+13:48:01 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 16912 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:48:01 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:48:01 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1740ae1: startup date [Mon Mar 18 13:48:01 CST 2019]; root of context hierarchy
+13:48:04 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:48:05 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2bc0d71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:48:05 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:48:05 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:48:05 INFO ip=[] - Starting service [Tomcat]
+13:48:05 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:48:05 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:48:05 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:48:05 INFO ip=[] - Root WebApplicationContext: initialization completed in 4022 ms
+13:48:06 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:48:06 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:48:06 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:48:06 INFO ip=[] - JedisPool注入成功！！
+13:48:06 INFO ip=[] - redis地址：localhost:6379
+13:48:06 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.test(javax.servlet.http.HttpServletRequest)
+13:48:06 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+13:48:06 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:48:06 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:48:06 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:48:06 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:48:06 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1740ae1: startup date [Mon Mar 18 13:48:01 CST 2019]; root of context hierarchy
+13:48:06 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:48:06 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:48:06 INFO ip=[] - Starting without optional epoll library
+13:48:06 INFO ip=[] - Starting without optional kqueue library
+13:48:08 INFO ip=[] - LiveReload server is running on port 35729
+13:48:08 INFO ip=[] - Registering beans for JMX exposure on startup
+13:48:08 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:48:08 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:48:08 INFO ip=[] - Starting beans in phase 2147483647
+13:48:08 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:48:08 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:48:08 INFO ip=[] - Using a shared selector for servlet write/read
+13:48:08 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:48:08 INFO ip=[] - Started ProjectApplication in 8.042 seconds (JVM running for 10.595)
+13:48:26 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:48:26 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+13:48:26 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+13:48:26 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.data.redis.serializer.SerializationException: Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:84)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashValue(AbstractOperations.java:354)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashMap(AbstractOperations.java:298)
+	at org.springframework.data.redis.core.DefaultHashOperations.entries(DefaultHashOperations.java:233)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.entries(DefaultBoundHashOperations.java:172)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.getSession(RedisOperationsSessionRepository.java:431)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:400)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getRequestedSession(SessionRepositoryFilter.java:364)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:301)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:197)
+	at org.springframework.web.util.WebUtils.getSessionId(WebUtils.java:287)
+	at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1078)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:78)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:36)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:82)
+	... 46 common frames omitted
+Caused by: java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:687)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1876)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1745)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2033)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:427)
+	at org.springframework.core.serializer.DefaultDeserializer.deserialize(DefaultDeserializer.java:72)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:73)
+	... 48 common frames omitted
+13:48:26 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.data.redis.serializer.SerializationException: Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:84)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashValue(AbstractOperations.java:354)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashMap(AbstractOperations.java:298)
+	at org.springframework.data.redis.core.DefaultHashOperations.entries(DefaultHashOperations.java:233)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.entries(DefaultBoundHashOperations.java:172)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.getSession(RedisOperationsSessionRepository.java:431)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:400)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getRequestedSession(SessionRepositoryFilter.java:364)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:301)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:197)
+	at org.springframework.web.util.WebUtils.getSessionId(WebUtils.java:287)
+	at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1078)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:78)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:36)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:82)
+	... 43 common frames omitted
+Caused by: java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:687)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1876)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1745)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2033)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:427)
+	at org.springframework.core.serializer.DefaultDeserializer.deserialize(DefaultDeserializer.java:72)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:73)
+	... 45 common frames omitted
+13:48:26 ERROR ip=[] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.data.redis.serializer.SerializationException: Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:84)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashValue(AbstractOperations.java:354)
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashMap(AbstractOperations.java:298)
+	at org.springframework.data.redis.core.DefaultHashOperations.entries(DefaultHashOperations.java:233)
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.entries(DefaultBoundHashOperations.java:172)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.getSession(RedisOperationsSessionRepository.java:431)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:400)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.findById(RedisOperationsSessionRepository.java:247)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getRequestedSession(SessionRepositoryFilter.java:364)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:301)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:197)
+	at org.springframework.web.util.WebUtils.getSessionId(WebUtils.java:287)
+	at org.springframework.web.servlet.FrameworkServlet.publishRequestHandledEvent(FrameworkServlet.java:1078)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:78)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:36)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:82)
+	... 43 common frames omitted
+Caused by: java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; local class incompatible: stream classdesc serialVersionUID = 807142541169606558, local class serialVersionUID = -930688794616489099
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:687)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1876)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1745)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2033)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:427)
+	at org.springframework.core.serializer.DefaultDeserializer.deserialize(DefaultDeserializer.java:72)
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:73)
+	... 45 common frames omitted
+13:49:00 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1740ae1: startup date [Mon Mar 18 13:48:01 CST 2019]; root of context hierarchy
+13:49:00 INFO ip=[] - Stopping beans in phase 2147483647
+13:49:00 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+13:49:00 INFO ip=[] - Unregistering JMX-exposed beans
+13:49:31 INFO ip=[] - Starting ProjectApplication on DESKTOP-P6SBOHF with PID 3288 (F:\project\target\classes started by 曾惠君 in F:\project)
+13:49:31 INFO ip=[] - No active profile set, falling back to default profiles: default
+13:49:31 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16f02b45: startup date [Mon Mar 18 13:49:31 CST 2019]; root of context hierarchy
+13:49:34 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:49:35 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$730ea075] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:49:35 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+13:49:35 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+13:49:35 INFO ip=[] - Starting service [Tomcat]
+13:49:35 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+13:49:35 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\1.8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk\bin;C:\Program Files\Java\jdk\jre\bin;E:\apache-maven-3.1.1\bin;C:\Program Files (x86)\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts\;C:\Python27\Lib\site-packages\django;C:\Program Files (x86)\Bitvise SSH Client;C:\Android;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Redis\;C:\Users\曾惠君\AppData\Local\Microsoft\WindowsApps;.]
+13:49:36 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+13:49:36 INFO ip=[] - Root WebApplicationContext: initialization completed in 4576 ms
+13:49:36 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:49:36 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+13:49:36 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+13:49:36 INFO ip=[] - JedisPool注入成功！！
+13:49:36 INFO ip=[] - redis地址：localhost:6379
+13:49:36 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.test(javax.servlet.http.HttpServletRequest)
+13:49:36 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+13:49:36 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+13:49:36 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:49:36 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:49:36 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:49:36 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16f02b45: startup date [Mon Mar 18 13:49:31 CST 2019]; root of context hierarchy
+13:49:36 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+13:49:36 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+13:49:36 INFO ip=[] - Starting without optional epoll library
+13:49:36 INFO ip=[] - Starting without optional kqueue library
+13:49:39 INFO ip=[] - LiveReload server is running on port 35729
+13:49:39 INFO ip=[] - Registering beans for JMX exposure on startup
+13:49:39 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:49:39 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:49:39 INFO ip=[] - Starting beans in phase 2147483647
+13:49:39 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+13:49:39 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+13:49:39 INFO ip=[] - Using a shared selector for servlet write/read
+13:49:39 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+13:49:39 INFO ip=[] - Started ProjectApplication in 8.509 seconds (JVM running for 10.7)
+13:49:40 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:49:40 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+13:49:40 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+13:49:40 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:49:40]-->GET
+13:49:41 INFO ip=[] - HikariPool-1 - Starting...
+13:49:41 INFO ip=[] - HikariPool-1 - Start completed.
+13:49:45 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 13:49:45]-->GET
+13:50:11 INFO ip=[] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16f02b45: startup date [Mon Mar 18 13:49:31 CST 2019]; root of context hierarchy
+13:50:11 INFO ip=[] - Stopping beans in phase 2147483647
+13:50:11 INFO ip=[] - Unregistering JMX-exposed beans on shutdown
+13:50:11 INFO ip=[] - Unregistering JMX-exposed beans
+13:50:11 INFO ip=[] - HikariPool-1 - Shutdown initiated...
+13:50:11 INFO ip=[] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true">
+    <contextName>lhl</contextName>
+    <property name="LOG_HOME" value="${catalina.home}/logs/lhl" />
+    <appender name="console-log" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss.SSS} %p ip=[%X{clientIP}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="info-log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_HOME}/info.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/info.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--  <param name="MaxBackupIndex" value="20"/> -->
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>info</level>
+        </filter>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %p ip=[%X{clientIP}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="error-log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_HOME}/error.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>error</level>
+        </filter>
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss} %p ip=[%X{clientIP}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="org.quartz" level="ERROR" />
+    <root level="info">
+        <appender-ref ref="console-log"/>
+        <appender-ref ref="info-log"/>
+        <appender-ref ref="error-log"/>
+    </root>
+
+</configuration>
+
