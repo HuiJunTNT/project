@@ -1,5 +1,7 @@
 package com.yuexun.config.interceptors;
 
+import com.yuexun.utils.ProperTiesUtil;
+import com.yuexunit.accountTemp.db.User;
 import com.yuexunit.accountTemp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,23 +22,15 @@ public class LoginInterceptor  implements HandlerInterceptor {
     @Autowired
     UserService userService;
 
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-//        String uuid = request.getParameter("uuid");
-//        if(uuid==null){
-//            return false;
-//        }
-//        User user = userService.getUserInfoByUUid(uuid.split("-")[0]);
-//        if(user==null){
-//            response.sendRedirect("/static/manageHtml/login.html?msg=error");
-//            return false;
-//        }
-//        HttpSession session = request.getSession();
-//        session.setAttribute("user",user);
-
-
-
-        System.err.println("=========================================================");
+        User user =(User)request.getSession().getAttribute("userSession");
+        if(user==null){
+            response.sendRedirect(ProperTiesUtil.getLoginUrl());
+            return false;
+        }
+        System.err.println("========================================="+user.getUsername());
         return true;
     }
 

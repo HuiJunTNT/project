@@ -39,8 +39,7 @@ public class WebConfigurer extends WebMvcConfigurationSupport {
     public void addInterceptors(InterceptorRegistry registry) {
         // addPathPatterns("/**") 表示拦截所有的请求
         // excludePathPatterns("/login", "/register") 表示除了登陆与注册之外，因为登陆注册不需要登陆也可以访问
-        registry.addInterceptor(loginInterceptor).addPathPatterns("/**").excludePathPatterns("/accountTemp/toLogin","/**")
-                .excludePathPatterns("/accountTemp/getList","/**");
+        registry.addInterceptor(loginInterceptor).addPathPatterns("/**").excludePathPatterns("/account/toLogin","/**");
         registry.addInterceptor(operatorLog).addPathPatterns("/**");
         super.addInterceptors(registry);
     }

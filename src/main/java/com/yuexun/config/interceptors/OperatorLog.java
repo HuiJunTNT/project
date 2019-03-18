@@ -1,5 +1,6 @@
 package com.yuexun.config.interceptors;
 
+import com.github.pagehelper.StringUtil;
 import com.yuexun.utils.DateNewUtil;
 import com.yuexun.utils.webutil.WebUtil;
 import org.slf4j.Logger;
@@ -24,10 +25,12 @@ public class OperatorLog   implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String remoteIP = WebUtil.getRemoteIP(request);
-        String method = request.getMethod();
-        Date date = new Date();
-        logger.info("[ip :"+remoteIP+" : "+DateNewUtil.format(date,"yyyy-MM-dd HH:mm:ss") +"]-->"+method);
+        String method = request.getServletPath();
+        if(StringUtil.isNotEmpty(method)&&!"/favicon.ico".equals(method)){
+            String remoteIP = WebUtil.getRemoteIP(request);
+            Date date = new Date();
+            logger.info("[ip :"+remoteIP+" : "+DateNewUtil.format(date,"yyyy-MM-dd HH:mm:ss") +"] : "+method);
+        }
         return true;
     }
 
