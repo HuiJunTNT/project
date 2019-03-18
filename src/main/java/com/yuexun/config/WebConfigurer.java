@@ -41,6 +41,6 @@ public class WebConfigurer extends WebMvcConfigurationSupport {
         // excludePathPatterns("/login", "/register") 表示除了登陆与注册之外，因为登陆注册不需要登陆也可以访问
         registry.addInterceptor(loginInterceptor).addPathPatterns("/**").excludePathPatterns("/account/toLogin","/**");
         registry.addInterceptor(operatorLog).addPathPatterns("/**");
-        super.addInterceptors(registry);
+
     }
 }

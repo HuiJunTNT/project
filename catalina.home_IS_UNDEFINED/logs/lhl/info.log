@@ -1038,3 +1038,555 @@ Caused by: java.io.InvalidClassException: com.yuexunit.accountTemp.db.User; loca
 13:50:11 INFO ip=[] - Unregistering JMX-exposed beans
 13:50:11 INFO ip=[] - HikariPool-1 - Shutdown initiated...
 13:50:11 INFO ip=[] - HikariPool-1 - Shutdown completed.
+20:15:32 INFO ip=[] - Starting ProjectApplication on 47CLC1P6ENZ9GM8 with PID 2668 (E:\work\project\target\classes started by Administrator in E:\work\project)
+20:15:32 INFO ip=[] - No active profile set, falling back to default profiles: default
+20:15:32 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12a5652: startup date [Mon Mar 18 20:15:32 CST 2019]; root of context hierarchy
+20:15:34 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+20:15:35 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$881746f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:35 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+20:15:35 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+20:15:35 INFO ip=[] - Starting service [Tomcat]
+20:15:35 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+20:15:35 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jre8\bin;E:\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+20:15:35 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+20:15:35 INFO ip=[] - Root WebApplicationContext: initialization completed in 3450 ms
+20:15:36 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:15:36 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+20:15:36 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+20:15:36 WARN ip=[] - Autowired annotation is not supported on static fields: private static java.lang.String com.yuexun.utils.ProperTiesUtil.loginUrl
+20:15:36 INFO ip=[] - JedisPool注入成功！！
+20:15:36 INFO ip=[] - redis地址：localhost:6379
+20:15:36 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+20:15:36 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.logOut(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:15:36 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+20:15:36 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:15:36 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:15:36 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:15:36 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12a5652: startup date [Mon Mar 18 20:15:32 CST 2019]; root of context hierarchy
+20:15:36 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+20:15:36 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+20:15:36 INFO ip=[] - Starting without optional epoll library
+20:15:36 INFO ip=[] - Starting without optional kqueue library
+20:15:37 INFO ip=[] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+20:15:38 INFO ip=[] - LiveReload server is running on port 35729
+20:15:38 INFO ip=[] - Registering beans for JMX exposure on startup
+20:15:38 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+20:15:38 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+20:15:38 INFO ip=[] - Starting beans in phase 2147483647
+20:15:38 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:15:38 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+20:15:38 INFO ip=[] - Using a shared selector for servlet write/read
+20:15:38 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+20:15:38 INFO ip=[] - Started ProjectApplication in 6.087 seconds (JVM running for 7.241)
+20:17:51 INFO ip=[] - Starting ProjectApplication on 47CLC1P6ENZ9GM8 with PID 3740 (E:\work\project\target\classes started by Administrator in E:\work\project)
+20:17:51 INFO ip=[] - No active profile set, falling back to default profiles: default
+20:17:51 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c7fee0: startup date [Mon Mar 18 20:17:51 CST 2019]; root of context hierarchy
+20:17:53 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+20:17:53 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd1d2274] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:17:54 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+20:17:54 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+20:17:54 INFO ip=[] - Starting service [Tomcat]
+20:17:54 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+20:17:54 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jre8\bin;E:\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+20:17:54 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+20:17:54 INFO ip=[] - Root WebApplicationContext: initialization completed in 3388 ms
+20:17:54 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:17:54 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+20:17:54 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+20:17:54 WARN ip=[] - Autowired annotation is not supported on static fields: private static java.lang.String com.yuexun.utils.ProperTiesUtil.loginUrl
+20:17:54 INFO ip=[] - JedisPool注入成功！！
+20:17:54 INFO ip=[] - redis地址：localhost:6379
+20:17:55 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.logOut(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:17:55 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+20:17:55 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+20:17:55 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:17:55 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:17:55 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:17:55 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c7fee0: startup date [Mon Mar 18 20:17:51 CST 2019]; root of context hierarchy
+20:17:55 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+20:17:55 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+20:17:55 INFO ip=[] - Starting without optional epoll library
+20:17:55 INFO ip=[] - Starting without optional kqueue library
+20:17:56 INFO ip=[] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+20:17:56 INFO ip=[] - LiveReload server is running on port 35729
+20:17:56 INFO ip=[] - Registering beans for JMX exposure on startup
+20:17:56 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+20:17:56 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+20:17:56 INFO ip=[] - Starting beans in phase 2147483647
+20:17:56 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:17:56 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+20:17:56 INFO ip=[] - Using a shared selector for servlet write/read
+20:17:56 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+20:17:56 INFO ip=[] - Started ProjectApplication in 5.915 seconds (JVM running for 6.934)
+20:18:44 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+20:18:44 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+20:18:44 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+20:18:44 INFO ip=[] - HikariPool-1 - Starting...
+20:18:47 ERROR ip=[] - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.pagehelper.SqlUtil._processPage(SqlUtil.java:401)
+	at com.github.pagehelper.SqlUtil.processPage(SqlUtil.java:374)
+	at com.github.pagehelper.PageHelper.intercept(PageHelper.java:254)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy98.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:434)
+	at com.sun.proxy.$Proxy82.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:231)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:128)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:68)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy85.selectByExample(Unknown Source)
+	at com.yuexunit.accountTemp.serviceImpl.UserServiceImpl.tologin(UserServiceImpl.java:29)
+	at com.yuexunit.accountTemp.controller.AcountController.toLogin(AcountController.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 114 common frames omitted
+20:18:47 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in file [E:\work\project\target\classes\mapper\account\UserMapper.xml]
+### The error may involve com.yuexunit.accountTemp.dao.UserMapper.selectByExample
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.pagehelper.SqlUtil._processPage(SqlUtil.java:401)
+	at com.github.pagehelper.SqlUtil.processPage(SqlUtil.java:374)
+	at com.github.pagehelper.PageHelper.intercept(PageHelper.java:254)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy98.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:434)
+	at com.sun.proxy.$Proxy82.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:231)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:128)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:68)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy85.selectByExample(Unknown Source)
+	at com.yuexunit.accountTemp.serviceImpl.UserServiceImpl.tologin(UserServiceImpl.java:29)
+	at com.yuexunit.accountTemp.controller.AcountController.toLogin(AcountController.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+20:22:02 INFO ip=[] - Starting ProjectApplication on 47CLC1P6ENZ9GM8 with PID 7232 (E:\work\project\target\classes started by Administrator in E:\work\project)
+20:22:02 INFO ip=[] - No active profile set, falling back to default profiles: default
+20:22:02 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@aaf16b: startup date [Mon Mar 18 20:22:02 CST 2019]; root of context hierarchy
+20:22:04 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+20:22:05 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a0fd7b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:22:05 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+20:22:05 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+20:22:05 INFO ip=[] - Starting service [Tomcat]
+20:22:05 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+20:22:05 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jre8\bin;E:\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+20:22:05 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+20:22:05 INFO ip=[] - Root WebApplicationContext: initialization completed in 3466 ms
+20:22:05 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:22:05 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+20:22:05 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+20:22:06 WARN ip=[] - Autowired annotation is not supported on static fields: private static java.lang.String com.yuexun.utils.ProperTiesUtil.loginUrl
+20:22:06 INFO ip=[] - JedisPool注入成功！！
+20:22:06 INFO ip=[] - redis地址：localhost:6379
+20:22:06 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.logOut(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:22:06 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+20:22:06 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+20:22:06 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:22:06 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:22:06 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:22:06 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@aaf16b: startup date [Mon Mar 18 20:22:02 CST 2019]; root of context hierarchy
+20:22:06 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+20:22:06 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+20:22:06 INFO ip=[] - Starting without optional epoll library
+20:22:06 INFO ip=[] - Starting without optional kqueue library
+20:22:07 INFO ip=[] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+20:22:07 INFO ip=[] - LiveReload server is running on port 35729
+20:22:07 INFO ip=[] - Registering beans for JMX exposure on startup
+20:22:07 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+20:22:07 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+20:22:07 INFO ip=[] - Starting beans in phase 2147483647
+20:22:07 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:22:07 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+20:22:07 INFO ip=[] - Using a shared selector for servlet write/read
+20:22:07 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+20:22:07 INFO ip=[] - Started ProjectApplication in 5.982 seconds (JVM running for 6.98)
+20:50:04 INFO ip=[] - Starting ProjectApplication on 47CLC1P6ENZ9GM8 with PID 10972 (E:\work\project\target\classes started by Administrator in E:\work\project)
+20:50:04 INFO ip=[] - No active profile set, falling back to default profiles: default
+20:50:05 INFO ip=[] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3db0c: startup date [Mon Mar 18 20:50:05 CST 2019]; root of context hierarchy
+20:50:07 INFO ip=[] - Multiple Spring Data modules found, entering strict repository configuration mode!
+20:50:07 INFO ip=[] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f642a86e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:08 INFO ip=[] - Tomcat initialized with port(s): 8080 (http)
+20:50:08 INFO ip=[] - Initializing ProtocolHandler ["http-nio-8080"]
+20:50:08 INFO ip=[] - Starting service [Tomcat]
+20:50:08 INFO ip=[] - Starting Servlet Engine: Apache Tomcat/8.5.34
+20:50:08 INFO ip=[] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jdk8\bin;C:\Program Files (x86)\Java\jre8\bin;E:\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+20:50:08 INFO ip=[] - Initializing Spring embedded WebApplicationContext
+20:50:08 INFO ip=[] - Root WebApplicationContext: initialization completed in 3395 ms
+20:50:08 INFO ip=[] - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:50:08 INFO ip=[] - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+20:50:08 INFO ip=[] - Servlet dispatcherServlet mapped to [/]
+20:50:08 WARN ip=[] - Autowired annotation is not supported on static fields: private static java.lang.String com.yuexun.utils.ProperTiesUtil.loginUrl
+20:50:08 INFO ip=[] - JedisPool注入成功！！
+20:50:08 INFO ip=[] - redis地址：localhost:6379
+20:50:08 INFO ip=[] - Mapped "{[/account/test],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.yuexunit.accountTemp.controller.AcountController.logOut(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:50:08 INFO ip=[] - Mapped "{[/account/toLogin],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.yuexunit.accountTemp.db.User com.yuexunit.accountTemp.controller.AcountController.toLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+20:50:08 INFO ip=[] - Mapped "{[/account/getList],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.github.pagehelper.PageInfo<com.yuexunit.accountTemp.db.User> com.yuexunit.accountTemp.controller.AcountController.getList(java.lang.Integer,java.lang.Integer)
+20:50:08 INFO ip=[] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:50:08 INFO ip=[] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:50:09 INFO ip=[] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:50:09 INFO ip=[] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3db0c: startup date [Mon Mar 18 20:50:05 CST 2019]; root of context hierarchy
+20:50:09 INFO ip=[] - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+20:50:09 INFO ip=[] - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+20:50:09 INFO ip=[] - Starting without optional epoll library
+20:50:09 INFO ip=[] - Starting without optional kqueue library
+20:50:10 INFO ip=[] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+20:50:10 INFO ip=[] - LiveReload server is running on port 35729
+20:50:10 INFO ip=[] - Registering beans for JMX exposure on startup
+20:50:10 INFO ip=[] - Bean with name 'dataSource' has been autodetected for JMX exposure
+20:50:10 INFO ip=[] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+20:50:10 INFO ip=[] - Starting beans in phase 2147483647
+20:50:10 INFO ip=[] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:50:10 INFO ip=[] - Starting ProtocolHandler ["http-nio-8080"]
+20:50:10 INFO ip=[] - Using a shared selector for servlet write/read
+20:50:10 INFO ip=[] - Tomcat started on port(s): 8080 (http) with context path ''
+20:50:10 INFO ip=[] - Started ProjectApplication in 5.943 seconds (JVM running for 6.9)
+20:51:01 INFO ip=[] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+20:51:01 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization started
+20:51:01 INFO ip=[] - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+20:51:01 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 20:51:01] : /account/toLogin
+20:51:01 INFO ip=[] - HikariPool-1 - Starting...
+20:51:14 INFO ip=[] - HikariPool-1 - Start completed.
+20:51:15 INFO ip=[] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+20:51:15 ERROR ip=[] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: No database selected
+### The error may exist in file [E:\work\project\target\classes\mapper\account\UserMapper.xml]
+### The error may involve com.yuexunit.accountTemp.dao.UserMapper.selectByExample-Inline
+### The error occurred while setting parameters
+### SQL: select                 id, username, idCard, password, uuids, user_type, email, phone, role, status, sex,     content         from user                    WHERE (  password = ?                                                                and phone = ? )
+### Cause: java.sql.SQLException: No database selected
+; uncategorized SQLException; SQL state [3D000]; error code [1046]; No database selected; nested exception is java.sql.SQLException: No database selected] with root cause
+java.sql.SQLException: No database selected
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.pagehelper.SqlUtil._processPage(SqlUtil.java:401)
+	at com.github.pagehelper.SqlUtil.processPage(SqlUtil.java:374)
+	at com.github.pagehelper.PageHelper.intercept(PageHelper.java:254)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy98.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:434)
+	at com.sun.proxy.$Proxy82.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:231)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:128)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:68)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy85.selectByExample(Unknown Source)
+	at com.yuexunit.accountTemp.serviceImpl.UserServiceImpl.tologin(UserServiceImpl.java:29)
+	at com.yuexunit.accountTemp.controller.AcountController.toLogin(AcountController.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:147)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+20:51:15 INFO ip=[] - [ip :0:0:0:0:0:0:0:1 : 2019-03-18 20:51:15] : /error
